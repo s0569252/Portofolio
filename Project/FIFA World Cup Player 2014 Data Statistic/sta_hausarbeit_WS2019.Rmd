@@ -1,0 +1,87 @@
+---
+title: "Hausarbeit, B3.5 Statistik für Wirtschaftsinformatiker, Wintersemester 2019/2020"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+date: "13.12.2019"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## IHRE NAMEN UND MATRIKELNUMMERN 
+
+Name: ___________________ Matrikelnummer: _____________________  
+Name: ___________________ Matrikelnummer: _____________________  
+Name: ___________________ Matrikelnummer: _____________________  
+Name: ___________________ Matrikelnummer: _____________________
+
+## Formalitäten
+Bitte bearbeiten Sie diese Hausarbeit in Vierergruppen, in denen alle Studierenden entweder bei Herrn Heimann oder bei Frau Riazy eingeschrieben sind. Gruppen von mehr als vier Studierenden sind nicht zugelassen.  
+
+Öffnen Sie das Dokument `sta_hausarbeit_WS2018.Rmd` in RStudio, lösen Sie alle Aufgaben mit R und **fügen Sie alle Antworten diesem R-Markdown-Dokument zu, einschließlich des R-Codes**, wie Sie es bereits bei den Übungsblättern getan haben. Zusätzliche handgeschriebene Lösungen oder Erklärungen sind nicht zugelassen ebensowenig wie Lösungen, die mit anderer Software wie z.B. Microsoft Excel erstellt wurden. Sie können die Musterlösungen in RMarkdown zu unseren Übungsblättern als Beispiele heranziehen.
+
+Wenn Sie mit der Bearbeitung fertig sind, erzeugen Sie bitte in RStudio mit dem Knopf **Knit PDF** ein PDF-Dokument oder wählen alternativ über das Dreieck neben **Knit PDF** die Option **Knit HTML**, um ein HTML-Dokument zu erzeugen. Für **Knit PDF** ist die Installation einer LaTeX-Distribution wie MikTeX für Windows (miktex.org) oder MacTeX für Mac OS X (www.tug.org/mactex/) erforderlich. **Knit HTML** funktioniert auch ohne LaTeX. 
+
+## Abgabe
+
+* **Elektronisch in Moodle bis spätestens Sonntag, 19.01.2020 um 23:55**
+    * sowohl das RMarkdown-Quelldokument
+    * als auch das daraus erzeugte PDF- oder HTML-Dokument
+* Bei späteren Abgaben werden pro vollem Tag Verspätung 3% der Punkte abgezogen
+
+Die Ergebnisse der Hausarbeit wird mit 20% gewichtet, das Ergebnis der Klausur mit 70% und das des R-Kurses in Datacamp mit 10%.  
+
+**Wichtig:** Wenn Sie die Klausur nicht in diesem Wintersemester 2019/2020 mitschreiben, dann verfällt die Leistung der Hausarbeit. Diese Regelung ist in der Prüfungsordnung festgelegt.
+  
+  
+Viel Erfolg, 
+
+Ihre Dozenten Michael Heimann und Shirin Riazy, Berlin, 17. Dezember 2019
+
+\pagebreak
+
+## Aufgabe
+Laden Sie den Datensatz `players_fifa_worldcup_2014_ha.csv` von Moodle herunter. Die Daten beschreiben alle Spieler bei der Fußballweltmeisterschaft 2014 und wurden von Professor Spott aus den Quellen [1,2] zusammengesetzt.
+
+Jede Zeile beschreibt einen Spieler, die Merkmale lauten:
+
+* PLAYER: Name des Fußballspielers
+* COUNTRY: Land, für das der Spieler antritt
+* COUNTRY.FULL: ausgeschriebener Name des Landes, für das der Spieler antritt
+* DATE.OF.BIRTH: Geburtsdatum des Spielers
+* HEIGHT.IN.CM: Körpergröße der Spielers in Zentimetern
+* POSITION: Feldposition des Spielers
+* PASSES.COMPLETED: Anzahl der Pässe des Spielers, die den Mitspieler erreicht haben
+* DISTANCE.COVERED: Gesamtdistanz in Kilometern, die der Spieler gelaufen ist
+* MINUTES.PLAYED: Anzahl der Minuten, die der Spieler während des Turniers gespielt hat
+
+Welche Zusammenhänge zwischen dem Positionen, Passverhalten und zurückgelegter Strecke lassen sich in den Daten finden?
+
+Sie sollen die Aufgabe selbstständig lösen, aber bitte orientieren Sie sich an folgenden Teilschritten:
+
+1. Beschreiben Sie für jedes der Merkmale, ob es quantitativ/qualitativ, stetig/diskret ist und auf welcher Skala es gemessen wird. Überlegen Sie, welche der Merkmale untersucht werden sollten, um das Spielverhalten von Spielern zu beschreiben und begründen Sie, warum.
+2. Untersuchen Sie, ob die Werte pro Spieler eindeutig sind (**Hinweis**: Betrachen Sie dazu die Funktion `unique()`). Wie könnte es passieren, dass die Werte nicht eindeutig sind? Arbeiten Sie mit einem modifizierten Datensatz weiter, in dem die Spieler eindeutig sind.
+3. Fügen Sie dem Datensatz `spieler` eine Spalte mit dem Namen `AVG.PASSES.COMPLETED.PER.GAME` zu, welche für jeden Spieler die durchschnittliche Anzahl der angekommenden Pässe pro 90 Minuten (also pro Spiel) zeigt. Wenn ein Spieler weniger als 90 Minuten gespielt hat, skalieren Sie die Anzahl entsprechend hoch.
+4. Fügen Sie dem Datensatz `spieler` eine Spalte mit dem Namen `AVG.DISTANCE.COVERED.PER.GAME` zu, welche für jeden Spieler die durchschnittliche Distanz pro 90 Minuten (also pro Spiel) misst. Weisen Sie die Spalte einer Variablen `avg_distance_per_game` zu. Entfernen Sie die fehlenden Werte `NA` aus `avg_distance_per_game`.
+5. Führen Sie eine deskriptive Analyse der ausgewählten Merkmale durch (Werteverteilung, fehlende oder falsche Werte, Maßzahlen wie Lagemaße und Streuung, passende Visualierungen).
+6. Visualisieren Sie den Zusammenhang der in Punkt 1 gewählten Merkmale einzeln. Beschriften Sie alle Achsen, die Balken und geben Sie dem Diagramm einen sinnvollen Titel.
+    i) In welchen Positionen befinden sich die Spieler am häufigsten/seltensten?
+    ii) Wie viele Pässe spielen die Spieler im Mittel?
+    iii) Wie weit laufen die Spieler im Mittel?
+7. Beschreiben Sie den Zusammenhang zwischen `AVG.PASSES.COMPLETED.PER.GAME` mit `POSITION` und messen Sie die Stärke des Zusammenhangs (der Abhängigkeit). Beachten Sie dabei die Skalen der Merkmale (Nominal-, Ordinal-, Kardinalskala) und wählen die richtigen Zusammenhangsmaße (Abhängigkeitsmaße) aus.
+8. Wählen Sie zwei Merkmale aus und untersuchen Sie den Zusammenhang dieser Merkmale mit `AVG.DISTANCE.COVERED.PER.GAME`. Wählen Sie dazu passende Visualisierungen und benutzen, falls sinnvoll, Maße zur Bestimmung der Zusammenhangsstärke. Hinweis: Falls Sie mit einem Datum rechnen möchten, betrachten Sie die Funktion `as.date()`.
+9. Überraschen Sie uns mit Zusammenhängen, die Sie in den Daten oder vielleicht sogar in Kombination mit Informationen außerhalb des Datensatzes finden!
+
+Der Bericht soll alle Beschreibungen und den gesamten Code mit allen berechneten Ausgaben und Visualisierungen enthalten. Es muss aus dem Bericht nachvollzogen werden können, was Sie warum gemacht haben. Fassen Sie die Erkenntnisse der Abschnitte kurz zusammen. Bitte geben Sie nicht seitenlang Tabellen aus, sondern beschränken Sie sich auf die Dinge, die für die Lösung der Aufgabe relevant sind.    
+
+    
+## Datenquellen
+
+[1] http://www.fifa.com/worldcup/archive/brazil2014/statistics/index.html
+
+[2] https://datahub.io/dataset/fifa-world-cup-2014-all-players
+
+

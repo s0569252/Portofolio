@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.icon {
+  width: 3rem; /* Adjust this value as needed */
+  height: auto; /* This maintains the aspect ratio of the image */
+  margin-right: 10px; /* Add margin to create space between icons */
+}
+
+.ion-row {
+  justify-content: flex-end !important;
+}
+
+.ion-col {
+  text-align: end !important;
+}
+/* MyComponent.css */
+
+
+
+ion-content {
+  --background-image: var(--default-background-image);
+  --background: var(--background-image) center center / cover no-repeat;
+}
+
+.centered-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Optional: Adjust the height as needed */
+}
+
+.fridge-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ion-title {
+  margin-top: 10px; /* Adjust as needed to create space between the image and the title */
+}
+
+.custom-title {
+  font-size: 45px; /* Adjust the font size as needed */
+  font-weight: bold;
+  margin-bottom: 30px; /* Adjust as needed to create space between the image and the title */
+}
+
+
+/* ion-content {
+  --background: url('/background_home.png') center center / cover no-repeat;
+} */

@@ -1,0 +1,146 @@
+<form role="form" charset=utf-8>
+	
+	<div class="form-group">
+
+		<label for="personalnummer">Personalnummer</label>
+		<input class="form-control" cam-variable-type="String" cam-variable-name="personalnummer" name="personalnummer" required="true" />
+
+	</div>
+	
+	<div class="form-group">
+
+		<label for="vorname">Vorname</label>
+		<input class="form-control" cam-variable-type="String" cam-variable-name="vorname" name="vorname" required="true" />
+
+	</div>
+
+	<div class="form-group">
+
+		<label for="nachname">Nachname</label>
+		<input class="form-control" cam-variable-type="String" cam-variable-name="nachname" name="nachname" required="true" />
+
+	</div>
+
+	<div class="form-group">
+
+		<label for="email">Email</label>
+		<input class="form-control" cam-variable-type="String" cam-variable-name="email" name="email" required="true" type="email" />
+
+	</div>
+	
+	<div class="form-group">
+
+		<label for="geschlecht">Geschlecht </label>
+		<select cam-variable-type="String" cam-variable-name="geschlecht"name="geschlecht" required="true">
+			<option value="Male">Male</option>
+			<option value="Female">Female</option>
+			<option value="Other">Other</option>
+		</select>
+
+	</div>
+	
+	<div class="form-group">
+
+		<label for="abteilung">Abteilung </label>
+		<select cam-variable-type="String" cam-variable-name="abteilung" name="abteilung" required="true">
+			<option value="e">Engineering</option>
+			<option value="ds">Data Science</option>
+			<option value="do">Dev Ops / QA</option>
+			<option value="it>IT Ops</option>
+			<option value="c">Customer Service</option>
+			<option value="m">Marketing</option>
+			<option value="s">Sales</option>
+			<option value="f">Finance/Legal</option>
+		</select>
+
+	</div>
+
+	<div class="form-group">
+
+		<label for="Jobtitel">jobtitel </label>
+		<select cam-variable-type="String" cam-variable-name="Jobtitel" name="Jobtitel" required="true">
+
+			<option value="se">Software Engineer</option>
+			<option value="pm">Product Manager</option>
+			<option value="sr">Sales Representative</option>
+
+		</select>
+
+	</div>
+
+	<div class="form-group">
+
+		<label for="Buddy">Buddy</label>
+		<input class="form-control" cam-variable-type="String" cam-variable-name="Buddy" name="Buddy" required="true" />
+
+	</div>
+	
+	<div class="form-group">
+
+		<label for="Vorgesetzter">Vorgesetzter</label>
+		<input class="form-control" cam-variable-type="String" cam-variable-name="Vorgesetzter" name="Vorgesetzter" required="true" />
+
+	</div>
+	
+	<div>
+	 Vertragsbeginn
+	 <p class="form-group">
+		<input id="test" type="date"
+					cam-variable-type="String" cam-variable-name="termin"
+				 class="form-control" />
+
+	</p>
+	</div>
+	
+	<div>
+	 Erster Arbeitstag
+	 <p class="form-group">
+		<input id="test" type="date"
+					cam-variable-type="String" cam-variable-name="termin"
+				 class="form-control" />
+
+	</p>
+	</div>
+	
+	<div class="form-group">
+
+		<label for="Sprache">Sprache </label>
+		<select cam-variable-type="String" cam-variable-name="Sprache" name="Sprache" required="true">
+
+			<option value="eng">Englisch</option>
+			<option value="de">Deutsch</option>
+			
+		</select>
+
+	</div>
+	
+	<div class="form-group">
+
+		<label for="gNotebook">Gew&uuml;nschtes Notebook</label>
+		<input class="form-control" cam-variable-type="String" cam-variable-name="gNotebook" name="gNotebook" required="true" />
+
+	</div>
+	
+	<div class="form-group">
+
+		<label for="gOs">Gew&uuml;nschtes OS </label>
+		<select cam-variable-type="String" cam-variable-name="gOs" name="gOs" required="true">
+
+			<option value="w">Windows 10</option>
+			<option value="mac">MacOS</option>
+			<option value="u">Ubuntu</option>
+			<option value="mi">Mint</option>
+			
+		</select>
+
+	</div>
+	
+	<div class="form-group">
+
+		<label for="mailName"> Telefon ben&ouml;tigt? </label><br>
+		<input type="checkbox" name="telBentgt" cam-variable-name="telBentgt" cam-variable-type="Boolean"/>Ja<br>
+		<input type="checkbox" name="telBentgt" cam-variable-name="telBentgt" cam-variable-type="Boolean" checked/>Nein<br>
+
+	</div>
+
+</form>

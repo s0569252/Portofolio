@@ -1,0 +1,99 @@
+<form role="form" charset=utf-8>
+
+	<style>
+.rg-required {
+	vertical-align: super;
+	color: grey;
+	font-size: 75%;
+}
+
+.form-group select:disabled {
+	-webkit-appearance: none;
+	cursor: not-allowed;
+	background-color: #eee;
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-webkit-transition: border-color ease-in-out .15s, box-shadow
+		ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out
+		.15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+</style>
+
+	<div class="form-group">
+		Anrede <input cam-variable-type="String" cam-variable-name="anrede"
+			name="anrede" readonly="true">
+	</div>
+
+	<div class="form-group">
+		<label for="vorname">Vorname</label> <input class="form-control"
+			cam-variable-type="String" cam-variable-name="vn" name="Vorname"
+			readonly="true" />
+	</div>
+
+	<div class="form-group">
+		<label for="nachname">Nachname</label> <input class="form-control"
+			cam-variable-type="String" cam-variable-name="nn"
+			name="Name" readonly="true" />
+	</div>
+
+	<div class="form-group">
+		<label for="E-Mail">E-mail</label> <input class="form-control"
+			cam-variable-type="String" cam-variable-name="email" name="Email"
+			readonly="true" type="E-Mail" />
+	</div>
+	<div class="form-group">
+		T&aumltigkeitsbereich <input cam-variable-type="String"
+			cam-variable-name="ab" name="Abteilung" readonly="true">
+
+
+	</div>
+	<div class="form-group">
+		Art der T&aumltigkeit <input cam-variable-type="String"
+			cam-variable-name="jt" name="Jobtitel"
+			readonly="true">
+	</div>
+	
+
+	<div>
+	 Terminvereinbarung 
+	 1. Terminvorschlag
+	 <p class="form-group">
+		<input id="test" type="date"
+					cam-variable-type="String" cam-variable-name="termin"
+				 class="form-control" />
+
+	</p>
+</div>
+<div>
+	 2. Terminvorschlag
+	 <p class="form-group">
+		<input id="test" type="date"
+					cam-variable-type="String" cam-variable-name="termin1"
+				 class="form-control" />
+
+	</p>
+</div>
+<div>
+	 3. Terminvorschlag
+	 <p class="form-group">
+		<input id="test" type="date"
+					cam-variable-type="String" cam-variable-name="termin2"
+				 class="form-control" />
+
+	</p>
+</div>
+
+</form>

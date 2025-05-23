@@ -1,0 +1,199 @@
+{
+  "id": "7fb22090-8ede-42fc-9b75-449d746741a9",
+  "version": "2.0",
+  "name": "FridgeMate",
+  "url": "http://localhost:3000",
+  "tests": [{
+    "id": "243eb84b-0de2-4baf-bfa0-e6d319838ae8",
+    "name": "Lebensmittel hinzufügen",
+    "commands": [{
+      "id": "574f1c78-1919-4f46-b9a1-92afb6574947",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "110e02d7-889b-428f-aba2-6a4333540a7a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1031x694",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "855c9afc-bf39-4731-853c-228e0190ae75",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ion-padding .md",
+      "targets": [
+        ["css=.ion-padding .md", "css:finder"],
+        ["xpath=//div[@id='root']/ion-app/ion-router-outlet/div/ion-content/a/ion-img", "xpath:idRelative"],
+        ["xpath=//ion-content/a/ion-img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b82b35e-2fe1-4343-b753-aff1b6109c8f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ion-padding .md",
+      "targets": [
+        ["css=.ion-padding .md", "css:finder"],
+        ["xpath=//div[@id='root']/ion-app/ion-router-outlet/div/ion-content/a/ion-img", "xpath:idRelative"],
+        ["xpath=//ion-content/a/ion-img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec1d4159-19e3-4895-83c8-bab87aeaf858",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ion-padding > a > .md",
+      "targets": [
+        ["css=.ion-padding > a > .md", "css:finder"],
+        ["xpath=//div[@id='root']/ion-app/ion-router-outlet/div/ion-content/a/ion-img", "xpath:idRelative"],
+        ["xpath=//ion-content/a/ion-img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9284c4f8-c8e6-4046-a2fe-f1c0807ed62a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ion-activated",
+      "targets": [
+        ["css=.ion-activated", "css:finder"],
+        ["xpath=//div[@id='root']/ion-app/ion-router-outlet/div[2]/ion-content/ion-list/ion-item-sliding/a/ion-item", "xpath:idRelative"],
+        ["xpath=//ion-item", "xpath:position"],
+        ["xpath=//ion-item[contains(.,'Lebensmittel hinzufügen')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6806434a-3cbc-4266-8613-dbd0668d34d4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.has-focus > .native-input",
+      "targets": [
+        ["css=.has-focus > .native-input", "css:finder"],
+        ["xpath=//input[@name='itemName']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/ion-app/ion-router-outlet/div[3]/ion-content/form/ion-item/ion-input/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9d5c317-51fa-4ebd-b3e6-a645b7edc9f0",
+      "comment": "",
+      "command": "type",
+      "target": "css=.has-focus > .native-input",
+      "targets": [
+        ["css=.has-focus > .native-input", "css:finder"],
+        ["xpath=//input[@name='itemName']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/ion-app/ion-router-outlet/div[3]/ion-content/form/ion-item/ion-input/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Banana"
+    }, {
+      "id": "3e140499-cf49-4bfb-90f8-2da2f3902225",
+      "comment": "",
+      "command": "click",
+      "target": "css=.has-focus > .native-input",
+      "targets": [
+        ["css=.has-focus > .native-input", "css:finder"],
+        ["xpath=//input[@name='expirationDate']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/ion-app/ion-router-outlet/div[3]/ion-content/form/ion-item[2]/ion-input/input", "xpath:idRelative"],
+        ["xpath=//ion-item[2]/ion-input/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0b5d9f2-88a4-45cd-855d-144add3d12cf",
+      "comment": "",
+      "command": "type",
+      "target": "css=.has-focus > .native-input",
+      "targets": [
+        ["css=.has-focus > .native-input", "css:finder"],
+        ["xpath=//input[@name='expirationDate']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/ion-app/ion-router-outlet/div[3]/ion-content/form/ion-item[2]/ion-input/input", "xpath:idRelative"],
+        ["xpath=//ion-item[2]/ion-input/input", "xpath:position"]
+      ],
+      "value": "2023-12-21"
+    }, {
+      "id": "1bc3730f-583f-476e-b051-2cd299083fad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.has-focus > .native-input",
+      "targets": [
+        ["css=.has-focus > .native-input", "css:finder"],
+        ["xpath=//input[@name='amount']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/ion-app/ion-router-outlet/div[3]/ion-content/form/ion-item[3]/ion-input/input", "xpath:idRelative"],
+        ["xpath=//ion-item[3]/ion-input/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55854748-474b-49ee-b397-2663c96fb7ff",
+      "comment": "",
+      "command": "type",
+      "target": "css=.has-focus > .native-input",
+      "targets": [
+        ["css=.has-focus > .native-input", "css:finder"],
+        ["xpath=//input[@name='amount']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/ion-app/ion-router-outlet/div[3]/ion-content/form/ion-item[3]/ion-input/input", "xpath:idRelative"],
+        ["xpath=//ion-item[3]/ion-input/input", "xpath:position"]
+      ],
+      "value": "3"
+    }, {
+      "id": "c52744e6-d2df-4dbb-abed-bed863bcb2f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.legacy-select",
+      "targets": [
+        ["css=.legacy-select", "css:finder"],
+        ["xpath=//ion-select[@name='unit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/ion-app/ion-router-outlet/div[3]/ion-content/form/ion-item[4]/ion-select", "xpath:idRelative"],
+        ["xpath=//ion-select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98694274-d13a-46d7-81c6-098dc59144f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=#alert-input-2-4 .alert-radio-label",
+      "targets": [
+        ["css=#alert-input-2-4 .alert-radio-label", "css:finder"],
+        ["xpath=//button[@id='alert-input-2-4']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//button[5]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0681e70c-dccb-4156-adf2-2d1506c7c8a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ion-activated > .alert-button-inner",
+      "targets": [
+        ["css=.ion-activated > .alert-button-inner", "css:finder"],
+        ["xpath=//ion-alert[@id='ion-overlay-2']/div[2]/div[4]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff508731-8445-45fe-b9a2-833482a52bad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//ion-button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/ion-app/ion-router-outlet/div[3]/ion-content/form/ion-button", "xpath:idRelative"],
+        ["xpath=//ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b11d258f-945d-4764-b643-a802190f5ea0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["243eb84b-0de2-4baf-bfa0-e6d319838ae8"]
+  }],
+  "urls": ["http://localhost:3000/"],
+  "plugins": []
+}

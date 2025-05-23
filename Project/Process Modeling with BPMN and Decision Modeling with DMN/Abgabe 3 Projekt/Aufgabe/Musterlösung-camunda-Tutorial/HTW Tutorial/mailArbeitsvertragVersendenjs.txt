@@ -1,0 +1,18 @@
+var from = "demo"
+var subject = "Ihre Bewerbung " + taetigkeit + "/Zusage ihr Arbeitsvertrag";
+var to = email;
+var mailText = "Sehr geehrte/er " + anrede + " " + vorname + " " + nachname + ",\n\
+\n\
+vielen Dank für Ihre Teilnahme am Bewerbungsgespräch.\n\
+\n\
+Hiermit teilen wir Ihnen mit, dass wir Sie einstellen möchten. Eine Kopie des Arbeitsvertrags befindet sich im Anhang dieser Mail.\n\
+Bitte prüfen Sie den Arbeitsvertrag sehr genau und geben uns binnen 14 Tagen eine Rückmeldung, ob Korrekturen notwendig sind und Sie die Stelle annehmen werden.\n\
+Wir danken Ihnen für das entgegengebrachte Interesse und freuen uns Sie mit an Bord zu haben.  \n\
+\n\
+Mit freundlichen Grüßen,\n\
+die Personalabteilung.";
+
+execution.setVariable("from", from);
+execution.setVariable("subject", subject);
+execution.setVariable("to", to);
+execution.setVariable("mailText", mailText);

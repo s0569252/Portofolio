@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+<title>FridgeMate:main commits</title>
+<link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commits/main?feed_token=akVA7mzzD9Y7r6bTy2et&amp;format=atom" rel="self" type="application/atom+xml"/>
+<link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commits/main" rel="alternate" type="text/html"/>
+<id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commits/main</id>
+<updated>2023-12-08T19:09:08+01:00</updated>
+<entry>
+  <id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/b6bc648774c23a6ca9e93392126e25b0b0ff8e9a</id>
+  <link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/b6bc648774c23a6ca9e93392126e25b0b0ff8e9a"/>
+  <title>Inhaltsübersicht (Pageoverview) angepasst: Line Break, besseres Datumsformat</title>
+  <updated>2023-12-08T19:09:08+01:00</updated>
+  <media:thumbnail width="40" height="40" url="https://secure.gravatar.com/avatar/63704b4990fa3cfcf28764b835286833?s=80&amp;d=identicon"/>
+  <author>
+    <name>KONNE-HP-TOUCH\kons_</name>
+    <email>kons_acc@web.de</email>
+  </author>
+  <summary type="html"></summary>
+</entry>
+<entry>
+  <id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/1000bc73b0f9196d254eb3539397348a28767a6a</id>
+  <link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/1000bc73b0f9196d254eb3539397348a28767a6a"/>
+  <title>Rezept- und Einkaufs-Dummy hinzugefügt</title>
+  <updated>2023-12-07T09:09:44+01:00</updated>
+  <media:thumbnail width="40" height="40" url="https://secure.gravatar.com/avatar/7c66f58c55c15971858cb28dcbb0bf8c?s=80&amp;d=identicon"/>
+  <author>
+    <name>Lena Fischer</name>
+    <email>lena.fischer@student.htw-berlin.de</email>
+  </author>
+  <summary type="html"></summary>
+</entry>
+<entry>
+  <id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/577353103936706ab2584f58e8a85493a54b3423</id>
+  <link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/577353103936706ab2584f58e8a85493a54b3423"/>
+  <title>Ionic Styles eingefügt</title>
+  <updated>2023-12-05T22:39:04+01:00</updated>
+  <media:thumbnail width="40" height="40" url="https://secure.gravatar.com/avatar/63704b4990fa3cfcf28764b835286833?s=80&amp;d=identicon"/>
+  <author>
+    <name>KONNE-HP-TOUCH\kons_</name>
+    <email>kons_acc@web.de</email>
+  </author>
+  <summary type="html"></summary>
+</entry>
+<entry>
+  <id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/d9039e6dcb3bdcb13e338d1368fc22bd4a28ab3a</id>
+  <link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/d9039e6dcb3bdcb13e338d1368fc22bd4a28ab3a"/>
+  <title>Footer Styling mit Ionic</title>
+  <updated>2023-12-05T20:25:16+01:00</updated>
+  <media:thumbnail width="40" height="40" url="https://secure.gravatar.com/avatar/63704b4990fa3cfcf28764b835286833?s=80&amp;d=identicon"/>
+  <author>
+    <name>KONNE-HP-TOUCH\kons_</name>
+    <email>kons_acc@web.de</email>
+  </author>
+  <summary type="html"></summary>
+</entry>
+<entry>
+  <id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/15b711e84f5e9075f347326b550c4e8fa1e8cd52</id>
+  <link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/15b711e84f5e9075f347326b550c4e8fa1e8cd52"/>
+  <title>UpdateAmount and Delete item fixed</title>
+  <updated>2023-12-05T19:56:19+01:00</updated>
+  <media:thumbnail width="40" height="40" url="https://secure.gravatar.com/avatar/7c66f58c55c15971858cb28dcbb0bf8c?s=80&amp;d=identicon"/>
+  <author>
+    <name>Lena Fischer</name>
+    <email>lena.fischer@student.htw-berlin.de</email>
+  </author>
+  <summary type="html"></summary>
+</entry>
+<entry>
+  <id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/4da61d900ff4bf1d4f576e143c0d98649ca3af90</id>
+  <link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/4da61d900ff4bf1d4f576e143c0d98649ca3af90"/>
+  <title>fixes for ionic implementation</title>
+  <updated>2023-12-05T19:20:21+01:00</updated>
+  <media:thumbnail width="40" height="40" url="https://secure.gravatar.com/avatar/1643a4dfa9c01584204511f3a933c7a7?s=80&amp;d=identicon"/>
+  <author>
+    <name>s0581583</name>
+    <email>s0581583@htw-berlin.de</email>
+  </author>
+  <summary type="html"></summary>
+</entry>
+<entry>
+  <id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/ef39fc489546173569fde8502e8a59ceda93283f</id>
+  <link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/ef39fc489546173569fde8502e8a59ceda93283f"/>
+  <title>Implemented Ionic Framework</title>
+  <updated>2023-12-05T18:47:08+01:00</updated>
+  <media:thumbnail width="40" height="40" url="https://secure.gravatar.com/avatar/1643a4dfa9c01584204511f3a933c7a7?s=80&amp;d=identicon"/>
+  <author>
+    <name>s0581583</name>
+    <email>s0581583@htw-berlin.de</email>
+  </author>
+  <summary type="html"></summary>
+</entry>
+<entry>
+  <id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/7871e2d6ed448a0ade516ff74e1591520d3de384</id>
+  <link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/7871e2d6ed448a0ade516ff74e1591520d3de384"/>
+  <title>gitignore aktualisiert</title>
+  <updated>2023-12-05T18:15:12+01:00</updated>
+  <media:thumbnail width="40" height="40" url="https://secure.gravatar.com/avatar/63704b4990fa3cfcf28764b835286833?s=80&amp;d=identicon"/>
+  <author>
+    <name>KONNE-HP-TOUCH\kons_</name>
+    <email>kons_acc@web.de</email>
+  </author>
+  <summary type="html"></summary>
+</entry>
+<entry>
+  <id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/e73658997480d4002ea3401348939e09869435a4</id>
+  <link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/e73658997480d4002ea3401348939e09869435a4"/>
+  <title>Remove node_modules and other unwanted files from tracking</title>
+  <updated>2023-12-05T18:09:29+01:00</updated>
+  <media:thumbnail width="40" height="40" url="https://secure.gravatar.com/avatar/63704b4990fa3cfcf28764b835286833?s=80&amp;d=identicon"/>
+  <author>
+    <name>KONNE-HP-TOUCH\kons_</name>
+    <email>kons_acc@web.de</email>
+  </author>
+  <summary type="html"></summary>
+</entry>
+<entry>
+  <id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/b6a2bb81c23059ee4e387ed2453e302d9f60e419</id>
+  <link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/b6a2bb81c23059ee4e387ed2453e302d9f60e419"/>
+  <title>Merge branch 'revert-82186005' into 'main'</title>
+  <updated>2023-12-05T16:59:13+00:00</updated>
+  <media:thumbnail width="40" height="40" url="https://secure.gravatar.com/avatar/33894775324b5f096d866a9fdddb3fbe?s=80&amp;d=identicon"/>
+  <author>
+    <name>Konstantin Müller</name>
+    <email>konstantin.mueller@student.htw-berlin.de</email>
+  </author>
+  <summary type="html">
+Revert "Remove node_modules and other unwanted files from tracking"
+
+See merge request &lt;a href="/m3bui/FridgeMate/-/merge_requests/3" data-reference-type="merge_request" data-original="m3bui/FridgeMate!3" data-link="false" data-link-reference="false" data-project="7798" data-merge-request="8734" data-project-path="m3bui/FridgeMate" data-iid="3" data-container="body" data-placement="top" title='Revert "Remove node_modules and other unwanted files from tracking"' class="gfm gfm-merge_request"&gt;!3&lt;/a&gt;</summary>
+</entry>
+<entry>
+  <id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/295aeb6735b24f636a22c15f3ec07dbb2162dc12</id>
+  <link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/295aeb6735b24f636a22c15f3ec07dbb2162dc12"/>
+  <title>Revert "Remove node_modules and other unwanted files from tracking"</title>
+  <updated>2023-12-05T16:58:18+00:00</updated>
+  <media:thumbnail width="40" height="40" url="https://secure.gravatar.com/avatar/33894775324b5f096d866a9fdddb3fbe?s=80&amp;d=identicon"/>
+  <author>
+    <name>Konstantin Müller</name>
+    <email>konstantin.mueller@student.htw-berlin.de</email>
+  </author>
+  <summary type="html">
+This reverts commit &lt;a href="/m3bui/FridgeMate/-/commit/821860052c65c9c3f69dc27fddec9ec7024f0ee0" data-reference-type="commit" data-original="821860052c65c9c3f69dc27fddec9ec7024f0ee0" data-link="false" data-link-reference="false" data-project="7798" data-commit="821860052c65c9c3f69dc27fddec9ec7024f0ee0" data-container="body" data-placement="top" title="Remove node_modules and other unwanted files from tracking" class="gfm gfm-commit has-tooltip"&gt;82186005&lt;/a&gt;</summary>
+</entry>
+<entry>
+  <id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/8a27f39cfb8c1a7d97d3cee2f9e314562f581120</id>
+  <link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/8a27f39cfb8c1a7d97d3cee2f9e314562f581120"/>
+  <title>Popover added to PageOverview</title>
+  <updated>2023-12-05T09:04:15+01:00</updated>
+  <media:thumbnail width="40" height="40" url="https://secure.gravatar.com/avatar/7c66f58c55c15971858cb28dcbb0bf8c?s=80&amp;d=identicon"/>
+  <author>
+    <name>Lena Fischer</name>
+    <email>lena.fischer@student.htw-berlin.de</email>
+  </author>
+  <summary type="html"></summary>
+</entry>
+<entry>
+  <id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/899dcc8b4a7336fa8d530f97808c3b5502c60566</id>
+  <link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/899dcc8b4a7336fa8d530f97808c3b5502c60566"/>
+  <title>Update popover added</title>
+  <updated>2023-12-05T09:02:15+01:00</updated>
+  <media:thumbnail width="40" height="40" url="https://secure.gravatar.com/avatar/7c66f58c55c15971858cb28dcbb0bf8c?s=80&amp;d=identicon"/>
+  <author>
+    <name>Lena Fischer</name>
+    <email>lena.fischer@student.htw-berlin.de</email>
+  </author>
+  <summary type="html"></summary>
+</entry>
+<entry>
+  <id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/f949617ec1e6b0eaa10d0244ba4de57ed4582122</id>
+  <link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/f949617ec1e6b0eaa10d0244ba4de57ed4582122"/>
+  <title>removed and commented Ionic Framework</title>
+  <updated>2023-12-03T18:00:03+01:00</updated>
+  <media:thumbnail width="40" height="40" url="https://secure.gravatar.com/avatar/63704b4990fa3cfcf28764b835286833?s=80&amp;d=identicon"/>
+  <author>
+    <name>KONNE-HP-TOUCH\kons_</name>
+    <email>kons_acc@web.de</email>
+  </author>
+  <summary type="html"></summary>
+</entry>
+<entry>
+  <id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/da5ef57692e4da647408f4db5f2be2dd7d9f24c9</id>
+  <link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/da5ef57692e4da647408f4db5f2be2dd7d9f24c9"/>
+  <title>Backend: frozen Attribut geadded, DELETE und PUT/UPDATE-Route geadded,...</title>
+  <updated>2023-12-01T16:05:04+01:00</updated>
+  <media:thumbnail width="40" height="40" url="https://secure.gravatar.com/avatar/63704b4990fa3cfcf28764b835286833?s=80&amp;d=identicon"/>
+  <author>
+    <name>KONNE-HP-TOUCH\kons_</name>
+    <email>kons_acc@web.de</email>
+  </author>
+  <summary type="html">Backend: frozen Attribut geadded, DELETE und PUT/UPDATE-Route geadded, Frontend: Formular und Übersicht dem Backend angepasst
+</summary>
+</entry>
+<entry>
+  <id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/0268b3076983f2069bef5289227fdb03beebd293</id>
+  <link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/0268b3076983f2069bef5289227fdb03beebd293"/>
+  <title>Icon for adding foods was added</title>
+  <updated>2023-12-01T14:54:42+01:00</updated>
+  <media:thumbnail width="40" height="40" url="https://secure.gravatar.com/avatar/4fe4b37c575d63808b3f1a196efcb695?s=80&amp;d=identicon"/>
+  <author>
+    <name>juli16373@gmail.com</name>
+    <email>juli16373@gmail.com</email>
+  </author>
+  <summary type="html"></summary>
+</entry>
+<entry>
+  <id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/a41ec6e92d4e23b67390dc7bff8d54cc0f85dc28</id>
+  <link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/a41ec6e92d4e23b67390dc7bff8d54cc0f85dc28"/>
+  <title>implemented ionic modules and added infobox to startpage</title>
+  <updated>2023-12-01T14:06:43+01:00</updated>
+  <media:thumbnail width="40" height="40" url="https://secure.gravatar.com/avatar/1643a4dfa9c01584204511f3a933c7a7?s=80&amp;d=identicon"/>
+  <author>
+    <name>s0581583</name>
+    <email>s0581583@htw-berlin.de</email>
+  </author>
+  <summary type="html"></summary>
+</entry>
+<entry>
+  <id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/44a368ea5d98ddbdc8eda3cf8b40749c9beff95f</id>
+  <link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/44a368ea5d98ddbdc8eda3cf8b40749c9beff95f"/>
+  <title>Formular-Module formik und yup hzgf., Model geändert (Attribute + Vailierung)...</title>
+  <updated>2023-12-01T12:10:53+01:00</updated>
+  <media:thumbnail width="40" height="40" url="https://secure.gravatar.com/avatar/63704b4990fa3cfcf28764b835286833?s=80&amp;d=identicon"/>
+  <author>
+    <name>KONNE-HP-TOUCH\kons_</name>
+    <email>kons_acc@web.de</email>
+  </author>
+  <summary type="html">Formular-Module formik und yup hzgf., Model geändert (Attribute + Vailierung), Verlinkungen gesetzt, Funktionen für Item hinzufügen und Items anzeigen hzgf.
+</summary>
+</entry>
+<entry>
+  <id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/0a4a23671bdc54095f4934ce69916209820c0f99</id>
+  <link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/0a4a23671bdc54095f4934ce69916209820c0f99"/>
+  <title>componenten dummies, header, footer, icons (umbenannt)</title>
+  <updated>2023-12-01T10:52:40+01:00</updated>
+  <media:thumbnail width="40" height="40" url="https://secure.gravatar.com/avatar/63704b4990fa3cfcf28764b835286833?s=80&amp;d=identicon"/>
+  <author>
+    <name>KONNE-HP-TOUCH\kons_</name>
+    <email>kons_acc@web.de</email>
+  </author>
+  <summary type="html"></summary>
+</entry>
+<entry>
+  <id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/a859f88b915c8eca5e6eb0ab1caacdf5bb0e2b80</id>
+  <link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/a859f88b915c8eca5e6eb0ab1caacdf5bb0e2b80"/>
+  <title>Routing in index.js verlegt, Components umbenannt in footer.jsx und...</title>
+  <updated>2023-11-29T14:13:00+01:00</updated>
+  <media:thumbnail width="40" height="40" url="https://secure.gravatar.com/avatar/63704b4990fa3cfcf28764b835286833?s=80&amp;d=identicon"/>
+  <author>
+    <name>KONNE-HP-TOUCH\kons_</name>
+    <email>kons_acc@web.de</email>
+  </author>
+  <summary type="html">Routing in index.js verlegt, Components umbenannt in footer.jsx und startHeader.jsx, Startseite mit Link zu Menü erstellt
+</summary>
+</entry>
+<entry>
+  <id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/0917bf4f0e3ee21218b1519ab67857ecc1051e0f</id>
+  <link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/0917bf4f0e3ee21218b1519ab67857ecc1051e0f"/>
+  <title>weitere Components und Routing</title>
+  <updated>2023-11-29T11:37:55+01:00</updated>
+  <media:thumbnail width="40" height="40" url="https://secure.gravatar.com/avatar/63704b4990fa3cfcf28764b835286833?s=80&amp;d=identicon"/>
+  <author>
+    <name>KONNE-HP-TOUCH\kons_</name>
+    <email>kons_acc@web.de</email>
+  </author>
+  <summary type="html"></summary>
+</entry>
+<entry>
+  <id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/e88f804f32e7bfc8d38ada8c89fc4e4a9fa10a5d</id>
+  <link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/e88f804f32e7bfc8d38ada8c89fc4e4a9fa10a5d"/>
+  <title>troubleshooting: allowed hosts</title>
+  <updated>2023-11-29T10:18:32+01:00</updated>
+  <media:thumbnail width="40" height="40" url="https://secure.gravatar.com/avatar/63704b4990fa3cfcf28764b835286833?s=80&amp;d=identicon"/>
+  <author>
+    <name>KONNE-HP-TOUCH\kons_</name>
+    <email>kons_acc@web.de</email>
+  </author>
+  <summary type="html"></summary>
+</entry>
+<entry>
+  <id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/a3ee5772bfef600a3e7c8bf1844eb892ed62b2b1</id>
+  <link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/a3ee5772bfef600a3e7c8bf1844eb892ed62b2b1"/>
+  <title>Routing Package für React hinzugefügt</title>
+  <updated>2023-11-28T23:51:18+01:00</updated>
+  <media:thumbnail width="40" height="40" url="https://secure.gravatar.com/avatar/63704b4990fa3cfcf28764b835286833?s=80&amp;d=identicon"/>
+  <author>
+    <name>KONNE-HP-TOUCH\kons_</name>
+    <email>kons_acc@web.de</email>
+  </author>
+  <summary type="html"></summary>
+</entry>
+<entry>
+  <id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/b4d749c8241440bb84f2f20e9cc221b3476d71f5</id>
+  <link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/b4d749c8241440bb84f2f20e9cc221b3476d71f5"/>
+  <title>UPDATE aktuelle Infos zum installieren und starten des Projektes</title>
+  <updated>2023-11-24T22:29:12+01:00</updated>
+  <media:thumbnail width="40" height="40" url="https://secure.gravatar.com/avatar/c2c74f3f1bdec74dcd0e0466bd56dfc0?s=80&amp;d=identicon"/>
+  <author>
+    <name>qubi7</name>
+    <email>54663633+qubi7@users.noreply.github.com</email>
+  </author>
+  <summary type="html"></summary>
+</entry>
+<entry>
+  <id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/7b6fded4e1d8bd20c701385b582d6d6de14e3f21</id>
+  <link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/7b6fded4e1d8bd20c701385b582d6d6de14e3f21"/>
+  <title>added gitignore for node modules</title>
+  <updated>2023-11-23T20:18:45+01:00</updated>
+  <media:thumbnail width="40" height="40" url="https://secure.gravatar.com/avatar/63704b4990fa3cfcf28764b835286833?s=80&amp;d=identicon"/>
+  <author>
+    <name>KONNE-HP-TOUCH\kons_</name>
+    <email>kons_acc@web.de</email>
+  </author>
+  <summary type="html"></summary>
+</entry>
+<entry>
+  <id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/1e6bc928f0ee01fd22ff3417fcded328b5f5d75c</id>
+  <link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/1e6bc928f0ee01fd22ff3417fcded328b5f5d75c"/>
+  <title>inital Backend</title>
+  <updated>2023-11-23T19:45:27+01:00</updated>
+  <media:thumbnail width="40" height="40" url="https://secure.gravatar.com/avatar/63704b4990fa3cfcf28764b835286833?s=80&amp;d=identicon"/>
+  <author>
+    <name>KONNE-HP-TOUCH\kons_</name>
+    <email>kons_acc@web.de</email>
+  </author>
+  <summary type="html"></summary>
+</entry>
+<entry>
+  <id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/962ec4e64113d3b97f531b25f487475d864e45ce</id>
+  <link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/962ec4e64113d3b97f531b25f487475d864e45ce"/>
+  <title>Frontend</title>
+  <updated>2023-11-23T19:42:52+01:00</updated>
+  <media:thumbnail width="40" height="40" url="https://secure.gravatar.com/avatar/63704b4990fa3cfcf28764b835286833?s=80&amp;d=identicon"/>
+  <author>
+    <name>KONNE-HP-TOUCH\kons_</name>
+    <email>kons_acc@web.de</email>
+  </author>
+  <summary type="html"></summary>
+</entry>
+<entry>
+  <id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/9359ce11444590ac321cd904df23930df4c51be4</id>
+  <link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/9359ce11444590ac321cd904df23930df4c51be4"/>
+  <title>Delete cache 1</title>
+  <updated>2023-11-23T19:32:27+01:00</updated>
+  <media:thumbnail width="40" height="40" url="https://secure.gravatar.com/avatar/2b83103b1550286244302bd76ee3ef6c?s=80&amp;d=identicon"/>
+  <author>
+    <name>imdimelvana</name>
+    <email>s0569252@htw-berlin.de</email>
+  </author>
+  <summary type="html"></summary>
+</entry>
+<entry>
+  <id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/4ed69ce3354c215e72896b0412040945f948c3cc</id>
+  <link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/4ed69ce3354c215e72896b0412040945f948c3cc"/>
+  <title>Merge branch 'main' of https://gitlab.rz.htw-berlin.de/m3bui/FridgeMate</title>
+  <updated>2023-11-23T19:22:18+01:00</updated>
+  <media:thumbnail width="40" height="40" url="https://secure.gravatar.com/avatar/63704b4990fa3cfcf28764b835286833?s=80&amp;d=identicon"/>
+  <author>
+    <name>KONNE-HP-TOUCH\kons_</name>
+    <email>kons_acc@web.de</email>
+  </author>
+  <summary type="html"></summary>
+</entry>
+<entry>
+  <id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/bbb0efdb25e3c4279edb578b439cdaa9ce16bc4d</id>
+  <link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/bbb0efdb25e3c4279edb578b439cdaa9ce16bc4d"/>
+  <title>Setup</title>
+  <updated>2023-11-23T19:21:17+01:00</updated>
+  <media:thumbnail width="40" height="40" url="https://secure.gravatar.com/avatar/63704b4990fa3cfcf28764b835286833?s=80&amp;d=identicon"/>
+  <author>
+    <name>KONNE-HP-TOUCH\kons_</name>
+    <email>kons_acc@web.de</email>
+  </author>
+  <summary type="html"></summary>
+</entry>
+<entry>
+  <id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/bd34692c252488c92efe31320bffff44392cd9aa</id>
+  <link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/bd34692c252488c92efe31320bffff44392cd9aa"/>
+  <title>delete data</title>
+  <updated>2023-11-23T19:03:18+01:00</updated>
+  <media:thumbnail width="40" height="40" url="https://secure.gravatar.com/avatar/2b83103b1550286244302bd76ee3ef6c?s=80&amp;d=identicon"/>
+  <author>
+    <name>imdimelvana</name>
+    <email>s0569252@htw-berlin.de</email>
+  </author>
+  <summary type="html"></summary>
+</entry>
+<entry>
+  <id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/e932128a6c933dd9490d520e7ce7e67ca4b86a18</id>
+  <link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/e932128a6c933dd9490d520e7ce7e67ca4b86a18"/>
+  <title>re-build package</title>
+  <updated>2023-11-23T14:59:39+01:00</updated>
+  <media:thumbnail width="40" height="40" url="https://secure.gravatar.com/avatar/2b83103b1550286244302bd76ee3ef6c?s=80&amp;d=identicon"/>
+  <author>
+    <name>imdimelvana</name>
+    <email>s0569252@htw-berlin.de</email>
+  </author>
+  <summary type="html"></summary>
+</entry>
+<entry>
+  <id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/067614228398b7d0ef42b184182bcbda75476b60</id>
+  <link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/067614228398b7d0ef42b184182bcbda75476b60"/>
+  <title>Add layout</title>
+  <updated>2023-11-23T14:42:44+01:00</updated>
+  <media:thumbnail width="40" height="40" url="https://secure.gravatar.com/avatar/2b83103b1550286244302bd76ee3ef6c?s=80&amp;d=identicon"/>
+  <author>
+    <name>imdimelvana</name>
+    <email>s0569252@htw-berlin.de</email>
+  </author>
+  <summary type="html"></summary>
+</entry>
+<entry>
+  <id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/09bb9eb414113b8c93c9c32adbde87ae8d41adaa</id>
+  <link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/09bb9eb414113b8c93c9c32adbde87ae8d41adaa"/>
+  <title>deletting nodes</title>
+  <updated>2023-11-23T14:25:03+01:00</updated>
+  <media:thumbnail width="40" height="40" url="https://secure.gravatar.com/avatar/2b83103b1550286244302bd76ee3ef6c?s=80&amp;d=identicon"/>
+  <author>
+    <name>imdimelvana</name>
+    <email>s0569252@htw-berlin.de</email>
+  </author>
+  <summary type="html"></summary>
+</entry>
+<entry>
+  <id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/d81ffd187b0ac4eea1acaa161f0c5b9b0ce57c15</id>
+  <link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/d81ffd187b0ac4eea1acaa161f0c5b9b0ce57c15"/>
+  <title>backend config upload</title>
+  <updated>2023-11-23T14:19:57+01:00</updated>
+  <media:thumbnail width="40" height="40" url="https://secure.gravatar.com/avatar/2b83103b1550286244302bd76ee3ef6c?s=80&amp;d=identicon"/>
+  <author>
+    <name>imdimelvana</name>
+    <email>s0569252@htw-berlin.de</email>
+  </author>
+  <summary type="html"></summary>
+</entry>
+<entry>
+  <id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/ede704fb218c18df2c3365b72d942aa6c75971d8</id>
+  <link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/ede704fb218c18df2c3365b72d942aa6c75971d8"/>
+  <title>Merge and Reupload</title>
+  <updated>2023-11-23T14:18:39+01:00</updated>
+  <media:thumbnail width="40" height="40" url="https://secure.gravatar.com/avatar/2b83103b1550286244302bd76ee3ef6c?s=80&amp;d=identicon"/>
+  <author>
+    <name>imdimelvana</name>
+    <email>s0569252@htw-berlin.de</email>
+  </author>
+  <summary type="html"></summary>
+</entry>
+<entry>
+  <id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/e48631aba4e21a0757decaebc9a497eebff28c2b</id>
+  <link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/e48631aba4e21a0757decaebc9a497eebff28c2b"/>
+  <title>Reupload Backend</title>
+  <updated>2023-11-23T14:17:47+01:00</updated>
+  <media:thumbnail width="40" height="40" url="https://secure.gravatar.com/avatar/2b83103b1550286244302bd76ee3ef6c?s=80&amp;d=identicon"/>
+  <author>
+    <name>imdimelvana</name>
+    <email>s0569252@htw-berlin.de</email>
+  </author>
+  <summary type="html"></summary>
+</entry>
+<entry>
+  <id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/c89f564dd372ecbed0cedbb52794a5bedf64381b</id>
+  <link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/c89f564dd372ecbed0cedbb52794a5bedf64381b"/>
+  <title>Reupload</title>
+  <updated>2023-11-23T14:16:06+01:00</updated>
+  <media:thumbnail width="40" height="40" url="https://secure.gravatar.com/avatar/2b83103b1550286244302bd76ee3ef6c?s=80&amp;d=identicon"/>
+  <author>
+    <name>imdimelvana</name>
+    <email>s0569252@htw-berlin.de</email>
+  </author>
+  <summary type="html"></summary>
+</entry>
+<entry>
+  <id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/4ed0dec80254e2b971ae3758165fe2cca6f6f795</id>
+  <link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/4ed0dec80254e2b971ae3758165fe2cca6f6f795"/>
+  <title>deleting test</title>
+  <updated>2023-11-23T13:18:26+01:00</updated>
+  <media:thumbnail width="40" height="40" url="https://secure.gravatar.com/avatar/2b83103b1550286244302bd76ee3ef6c?s=80&amp;d=identicon"/>
+  <author>
+    <name>imdimelvana</name>
+    <email>s0569252@htw-berlin.de</email>
+  </author>
+  <summary type="html"></summary>
+</entry>
+<entry>
+  <id>https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/01cf123813fd44302cf954cdcc076020c4999a48</id>
+  <link href="https://gitlab.htw-berlin.de/m3bui/FridgeMate/-/commit/01cf123813fd44302cf954cdcc076020c4999a48"/>
+  <title>commit1</title>
+  <updated>2023-11-23T13:17:51+01:00</updated>
+  <media:thumbnail width="40" height="40" url="https://secure.gravatar.com/avatar/2b83103b1550286244302bd76ee3ef6c?s=80&amp;d=identicon"/>
+  <author>
+    <name>imdimelvana</name>
+    <email>s0569252@htw-berlin.de</email>
+  </author>
+  <summary type="html"></summary>
+</entry>
+</feed>

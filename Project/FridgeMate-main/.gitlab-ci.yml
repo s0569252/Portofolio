@@ -1,0 +1,52 @@
+stages:
+  - build
+  - test
+  - deploy
+
+variables:
+  NODE_IMAGE: latest
+  FRONTEND_DIR: "frontend"
+  BACKEND_DIR: "backend"
+
+before_script:
+  - echo "Executing before script..."
+
+build_app:
+  stage: build
+  script:
+    - echo "Setting up project..."
+    - cd $FRONTEND_DIR
+    - npm install
+    - npm install react-router-dom
+    - cd ../$BACKEND_DIR
+    - npm install
+    
+test_frontend:
+  stage: test
+  script:
+    - cd $FRONTEND_DIR
+    - echo "Running frontend tests..."
+    - echo "This job tests for frontend"
+
+test_backend:
+  stage: test
+  script:
+    - cd $BACKEND_DIR
+    - echo "Running backend tests..."
+    - echo "This job tests for backend, but takes more time than test_frontend."
+    - echo "After the echo commands complete, it runs the sleep command for 20 seconds"
+    - echo "which simulates a test that runs 20 seconds longer than test_frontend"
+    - sleep 20
+
+
+deploy_app:
+  stage: deploy
+  script:
+    - echo "Starting services..."
+    - cd $BACKEND_DIR
+    - node server.js &
+    - cd ../$FRONTEND_DIR
+    - npm start
+
+after_script:
+  - echo "Executing after script..."

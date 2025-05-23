@@ -1,0 +1,18 @@
+var from = "demo"
+var subject = "Ihre Bewerbung /Absage aufgrund fehlender Unterlagen";
+var to = email;
+var mailText = "Sehr geehrte/er " + anrede + " " + vorname + " " + nachname + ",\n\
+\n\
+Leider müssen wir Ihre Berwerbung ablehnen, da Ihre Unterlagen nicht vollständig eingereicht wurden.\n\
+\n\
+Falls Sie weiterhin an der Stelle interessiert sind, bewerben Sie sich bitte erneut.\n\
+\n\
+Vielen Dank für Ihre Bewerbung! \n\
+\n\
+Mit freundlichen Grüßen, \n\
+die Personalabteilung.";
+
+execution.setVariable("from", from);
+execution.setVariable("subject", subject);
+execution.setVariable("to", to);
+execution.setVariable("mailText", mailText);

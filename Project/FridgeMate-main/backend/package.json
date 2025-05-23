@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "react-router-dom": "^5.3.4",
+    "sequelizer": "^1.1.4",
+    "sqlite3": "^5.1.6"
+  }
+}

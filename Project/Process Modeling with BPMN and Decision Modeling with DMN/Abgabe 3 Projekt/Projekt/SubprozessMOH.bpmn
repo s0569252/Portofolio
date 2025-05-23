@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:camunda="http://camunda.org/schema/1.0/bpmn" id="Definitions_1b3qbmo" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="3.1.0">
+  <bpmn:collaboration id="Collaboration_0ogjedh">
+    <bpmn:participant id="Participant_0auvdw6" name="Firma" processRef="SubprozessMOH" />
+  </bpmn:collaboration>
+  <bpmn:process id="SubprozessMOH" isExecutable="true">
+    <bpmn:laneSet id="LaneSet_0ugrfze">
+      <bpmn:lane id="Lane_1m5qu2v" name="MA">
+        <bpmn:flowNodeRef>StartEvent_1</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>EndEvent_1xlmw1g</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_14ca11x</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_0ybihsb</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_1kpkvvx" name="System" />
+    </bpmn:laneSet>
+    <bpmn:startEvent id="StartEvent_1">
+      <bpmn:outgoing>SequenceFlow_1s0x6ln</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:sequenceFlow id="SequenceFlow_1s0x6ln" sourceRef="StartEvent_1" targetRef="Task_14ca11x" />
+    <bpmn:sequenceFlow id="SequenceFlow_1kbyomy" sourceRef="Task_14ca11x" targetRef="Task_0ybihsb" />
+    <bpmn:endEvent id="EndEvent_1xlmw1g">
+      <bpmn:incoming>SequenceFlow_0slcbr4</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="SequenceFlow_0slcbr4" sourceRef="Task_0ybihsb" targetRef="EndEvent_1xlmw1g" />
+    <bpmn:sendTask id="Task_14ca11x" name="Vorstellungs-E-mail an alle MItarbeiter versenden" camunda:type="external" camunda:topic="emailService">
+      <bpmn:extensionElements>
+        <camunda:executionListener event="start">
+          <camunda:script scriptFormat="javascript">var from = email;
+var subject = "Dankeschoen!";
+var to = email;
+var mailText = "Liebe Kollegen,\n\
+\n\
+Dankeschoen fuer den herzlichen Empfang. Ich freue mich auf die zukuenftige Zusammenarbeit.\n\
+\n\
+Auf tolle Zusammenarbeit!\n\
+Mit freundlichen Grüßen\n\" 
++ vn + " " + nn + ".";
+
+execution.setVariable("from", from);
+execution.setVariable("subject", subject);
+execution.setVariable("to", to);
+execution.setVariable("mailText", mailText);
+</camunda:script>
+        </camunda:executionListener>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_1s0x6ln</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1kbyomy</bpmn:outgoing>
+    </bpmn:sendTask>
+    <bpmn:userTask id="Task_0ybihsb" name="Terminverein- barung erstellen" camunda:formKey="embedded:deployment:Terminvereinbarung.html">
+      <bpmn:incoming>SequenceFlow_1kbyomy</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0slcbr4</bpmn:outgoing>
+    </bpmn:userTask>
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_0ogjedh">
+      <bpmndi:BPMNShape id="Participant_0auvdw6_di" bpmnElement="Participant_0auvdw6" isHorizontal="true">
+        <dc:Bounds x="129" y="80" width="860" height="250" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_1">
+        <dc:Bounds x="242" y="132" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_1m5qu2v_di" bpmnElement="Lane_1m5qu2v" isHorizontal="true">
+        <dc:Bounds x="159" y="80" width="830" height="125" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_1kpkvvx_di" bpmnElement="Lane_1kpkvvx" isHorizontal="true">
+        <dc:Bounds x="159" y="205" width="830" height="125" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_1s0x6ln_di" bpmnElement="SequenceFlow_1s0x6ln">
+        <di:waypoint x="278" y="150" />
+        <di:waypoint x="350" y="150" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_1kbyomy_di" bpmnElement="SequenceFlow_1kbyomy">
+        <di:waypoint x="450" y="150" />
+        <di:waypoint x="591" y="150" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="EndEvent_1xlmw1g_di" bpmnElement="EndEvent_1xlmw1g">
+        <dc:Bounds x="822" y="132" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0slcbr4_di" bpmnElement="SequenceFlow_0slcbr4">
+        <di:waypoint x="691" y="150" />
+        <di:waypoint x="822" y="150" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="SendTask_0ljvo15_di" bpmnElement="Task_14ca11x">
+        <dc:Bounds x="350" y="110" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="UserTask_0u74mku_di" bpmnElement="Task_0ybihsb">
+        <dc:Bounds x="591" y="110" width="100" height="80" />
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>
