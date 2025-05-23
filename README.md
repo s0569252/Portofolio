@@ -5,7 +5,7 @@ Hi! I’m currently a Master's student in **Environmental Business Informatics**
 ## 🔧 Skills
 - Programming: Python, Java, JavaScript
 - Data Analysis: SQL, R, Power BI, Tableau
-- Tools: SAP, MS Office, RStudio
+- Tools: SAP-Hana (MM,PP,SD), MS Office, RStudio, MATLAB (simbiology)
 - Languages: Indonesian (native), English (fluent), German (fluent)
 
 ## 💼 Experience
